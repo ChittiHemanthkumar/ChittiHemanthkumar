@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+*{
+    font-family: 'Nunito Sans', sans-serif; 
+}
+.bannerBgImage{ 
+    height: 100vh;
+    background: url("../images/bimage.jpg"); 
+    background-size: cover;
+    position:relative;
+}
+ 
+.bannerText{ 
+    text-align: right; 
+    position: absolute; 
+    top:50%; 
+    left:50%; 
+    transform: translate(-50%,-50%); 
+    color:white;
+}
+.bannerTitle{ 
+    font-size: 2rem;
+}
+.bannerDesc{ 
+    font-size: 1rem;
+}
+.card{ 
+    cursor:pointer;
+}
+.card:hover{ 
+    background-color:#FAF; 
+    border:2px solid #0F8;
+}
+.bIcon{  
+    width: 100%; 
+    text-align: center; 
+    font-size:40px;
+
+}
+.img-fluid:hover{ 
+    border:5px solid yellowgreen;
+
+}
+.card-img-top{ 
+    height: 50vh;
+}
+#center{ 
+    text-align:center;
+}
